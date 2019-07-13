@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12244" started-at="2019-06-17T09:20:57Z" finished-at="2019-06-17T09:21:09Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.NationalLottory.NationalLottory.TestRunner@14bf9759]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="12244" started-at="2019-06-17T09:20:57Z" finished-at="2019-06-17T09:21:09Z">
+      <class name="com.NationalLottory.NationalLottory.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.NationalLottory.NationalLottory.TestRunner@14bf9759]" name="setUpClass" is-config="true" duration-ms="276" started-at="2019-06-17T09:20:57Z" finished-at="2019-06-17T09:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.NationalLottory.NationalLottory.TestRunner@14bf9759]" name="feature" duration-ms="11818" started-at="2019-06-17T09:20:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-17T09:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test to verify account opening]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.NationalLottory.NationalLottory.TestRunner@14bf9759]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2019-06-17T09:21:09Z" finished-at="2019-06-17T09:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.NationalLottory.NationalLottory.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
